@@ -20,7 +20,7 @@ const router = createRouter({
     {
       path: "/login",
       name: "login",
-      component: () => HomeView,
+      component: HomeView,
       meta: {
         title: "登录",
       },
